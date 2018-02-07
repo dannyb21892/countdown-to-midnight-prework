@@ -1,7 +1,7 @@
 #write your code here
 
 def countdown(timer)
-  while timer >=0 
+  while timer >=1 
     #puts timer == 1 ? "#{timer} SECOND!" : "#{timer} SECONDS!"
     puts "#{timer} SECOND(S)!"
     timer -= 1
@@ -10,7 +10,7 @@ def countdown(timer)
 end
 
 def countdown_with_sleep(timer)
-  while timer >=0 
+  while timer >=1 
     #puts timer == 1 ? "#{timer} SECOND!" : "#{timer} SECONDS!"
     puts "#{timer} SECOND(S)!"
     timer -= 1
